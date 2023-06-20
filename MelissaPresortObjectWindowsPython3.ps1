@@ -19,7 +19,7 @@ class DLLConfig {
 
 ######################### Config ###########################
 
-$RELEASE_VERSION = '2023.04'
+$RELEASE_VERSION = '2023.05'
 $ProductName = "presort_data"
 
 # Uses the location of the .ps1 file 
@@ -150,8 +150,12 @@ Write-Host "All file(s) have been downloaded/updated! "
 # Start
 # Run project
 if ([string]::IsNullOrEmpty($file)) {
-  python3 MelissaPresortObjectWindowsPython3/MelissaPresortObjectWindowsPython3.py --license $License  --dataPath $DataPath
+  Push-Location MelissaPresortObjectWindowsPython3
+  python3 MelissaPresortObjectWindowsPython3.py --license $License  --dataPath $DataPath
+  Pop-Location
 }
 else {
-  python3 MelissaPresortObjectWindowsPython3/MelissaPresortObjectWindowsPython3.py --license $License  --dataPath $DataPath --file $file
+  Push-Location MelissaPresortObjectWindowsPython3
+  python3 MelissaPresortObjectWindowsPython3.py --license $License  --dataPath $DataPath --file $file
+  Pop-Location
 }

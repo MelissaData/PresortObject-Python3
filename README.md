@@ -19,9 +19,9 @@ And return
 
 ## Tested Environments
 
-- Windows 64-bit Python 3.8.7
+- Windows 10 64-bit Python 3.8.7
 - Powershell 5.1
-- Melissa data files for 2023-04
+- Melissa data files for 2023-05
 
 ## Required File(s) and Programs
 
@@ -157,13 +157,13 @@ When you have modified the script to match your data location, let's run the scr
 
     You can pass a file path in ```-file``` parameter and a license string in ```-license``` parameter to test Presort Object. For example:
     ```
-    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectWindowsPython3\MelissaPresortObjectSampleInput.csv" 
-    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectWindowsPython3\MelissaPresortObjectSampleInput.csv" -license "<your_license_string>"
+    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" 
+    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" -license "<your_license_string>"
     ```
     For quiet mode:
     ```
-    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectWindowsPython3\MelissaPresortObjectSampleInput.csv" -quiet
-    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectWindowsPython3\MelissaPresortObjectSampleInput.csv" -license "<your_license_string>" -quiet
+    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" -quiet
+    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" -license "<your_license_string>" -quiet
     ```
 This is the expected output from a successful setup for interactive mode:
 
