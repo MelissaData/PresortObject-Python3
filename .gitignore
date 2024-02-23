@@ -5,3 +5,5 @@ mdPresort.dll.hash
 # mdPresort_pythoncode.py
 MelissaPresortObjectSampleInput_output.csv
 MelissaUpdater
+
+*.hash
