@@ -19,7 +19,7 @@ And return
 
 ## Tested Environments
 - Windows 10 64-bit Python 3.8.7, Powershell 5.1
-- Melissa data files for 2024-08
+- Melissa data files for 2024-09
 
 ## Required File(s) and Programs
 
@@ -106,8 +106,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/PresortObject-Python3
-$ cd PresortObject-Python3
+git clone https://github.com/MelissaData/PresortObject-Python3
+cd PresortObject-Python3
 ```
 
 #### Set up Melissa Updater 
@@ -142,23 +142,23 @@ When you have modified the script to match your data location, let's run the scr
 
     The script will prompt the user for a file path, then use the provided file to test Presort Object.  For example:
     ```
-    $ .\MelissaPresortObjectWindowsPython3.ps1
+    .\MelissaPresortObjectWindowsPython3.ps1
     ```
     For quiet mode:
     ```
-    $ .\MelissaPresortObjectWindowsPython3.ps1 -quiet
+    .\MelissaPresortObjectWindowsPython3.ps1 -quiet
     ```
 - Command Line 
 
     You can pass a file path in ```-file``` parameter and a license string in ```-license``` parameter to test Presort Object. For example:
     ```
-    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" 
-    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" -license "<your_license_string>"
+    .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" 
+    .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" -license "<your_license_string>"
     ```
     For quiet mode:
     ```
-    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" -quiet
-    $ .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" -license "<your_license_string>" -quiet
+    .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" -quiet
+    .\MelissaPresortObjectWindowsPython3.ps1 -file ".\MelissaPresortObjectSampleInput.csv" -license "<your_license_string>" -quiet
     ```
 This is the expected output from a successful setup for interactive mode:
 
