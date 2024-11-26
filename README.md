@@ -19,7 +19,7 @@ And return
 
 ## Tested Environments
 - Windows 10 64-bit Python 3.8.7, Powershell 5.1
-- Melissa data files for 2024-09
+- Melissa data files for 2024-10
 
 ## Required File(s) and Programs
 
